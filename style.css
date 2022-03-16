@@ -1,0 +1,216 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+header{
+    background-color:rgba(229, 236, 238, 0.9);
+    height:70px;
+    width:100%;
+    position: fixed;
+    opacity:0.8;
+    top:0;
+    z-index:10;
+}
+.header-kiri{
+    float:left;
+}
+.header-kiri h1{
+    color:#f30b16;
+    font-family:"Impact";
+    font-weight: 550;
+    font-size:38px;
+    letter-spacing: 0;
+}
+.header-kiri i{
+    font-family: "Impact";
+    color:blue;
+    font-weight: 250;
+    letter-spacing: 2px;
+    padding:0 4px;
+}
+.header-kanan{
+  height: inherit;
+  display: flex;
+  position: relative;
+  float:right;
+}
+.header-kanan a{
+    margin: 0 20px;
+    color: black;
+    transition: all 0.5s;
+}
+.header-kanan a:hover{
+    color:red;
+}
+ .header-kanan li{
+     font-size: 20px;
+     padding:23px 0;
+     font-weight: 500;
+ }
+.kotak{
+    width:1200px;
+    margin:auto;
+    padding:0 15px;
+}
+.bingkai-atas{
+    background-image: url(background2.jpg);
+    background-size: cover;
+    color: white;
+    text-align: right;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    width:100%;
+}
+.bingkai-atas h1{
+    opacity: 0.6;
+    margin-bottom: 10px;
+    font-size:46px;
+    letter-spacing: 0px;
+}
+.bingkai-atas p{
+    margin-bottom: 5px;
+    margin-left:700px;
+    opacity: 0.6;
+}
+.tentang-kami{
+    padding:50px 10px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom:10px;
+}
+.kotak-kiri{
+  width: 50%;
+  height:600px;
+  float:left;
+  text-align: left;
+}
+.kotak-kiri h2{
+    font-size: 80px;
+    font-family: "Avenir LT Std";
+    text-align: center;
+    padding-top:200px;
+    padding-bottom:40px;
+}
+.kotak-kiri p{
+    font-size:20px;
+    font-family: "muli";
+    color:black;
+    text-align: justify;
+    padding:15px;
+}
+.kotak-kanan{
+    width: 50%;
+    float:right;
+    height: 600px;
+}
+.kotak-kanan img{
+    width:100%;
+    height:400px;
+    margin-top:100px;
+    border-radius: 4px;
+}
+.head{
+    text-align: center;
+    margin-bottom: 30px;
+    color:white;
+}
+.head h2{
+    padding:20px 0;
+    font-size: 100px;
+}
+.produk{
+  width: 100%;
+  padding-bottom: 80px;
+  background-color: #b3d4fc;
+  text-align:center;
+}
+.motor{
+    float: left;
+    margin-bottom:10px;
+    margin-left:35px;
+    width:30%;
+}
+.tombol{
+    padding: 12px 100px;
+    color: white;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 4px;
+    cursor:pointer; 
+    font-size: 30px;
+}
+.tombol:hover{
+    background-color: blue;
+}
+
+.gambar-motor{
+    position: relative;
+}
+.gambar-motor img{
+    width:100%;
+}
+.text{
+  width:80%;
+  display: inline-block;
+  margin-top:5px;
+  font-size:15px;
+  font-weight: 500;
+  color:black;
+}
+.formulir-kontak{
+    padding-top: 10px;
+  }
+  .formulir-kontak h3{
+    padding-bottom:15px;
+    font-size:28px;
+    border-bottom: 2px solid #dee7ec;
+    margin-bottom:50px;
+  }
+  input, textarea{
+    width:400px;
+    margin-top:10px;
+    margin-bottom:30px;
+    padding:20px;
+    font-size:18px;
+    border:1px solid #dee7ec;
+  }
+  .tombol-submit{
+    font-size:18px;
+    color:#889eab;
+    background-color:#dee7ec;
+  }
+  .footer{
+    color:#fff;
+    height:200px;
+    padding:40px;
+  }
+  .footer-logo{
+    float:left;
+    color:#f30b16;
+    font-family:"Impact";
+    font-weight: 550;
+    font-size:38px;
+    padding-left:15px;
+  }
+  .footer-list{
+    float:right;
+  }
+  .footer-list li{
+    padding-bottom:20px;
+    padding-right:15px;
+}
+.clear{
+    clear:left;
+  }
